@@ -1,0 +1,1 @@
+console.log("hello world Java Script course 2022")
