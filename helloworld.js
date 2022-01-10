@@ -1,1 +1,1 @@
-console.log("hello world Java Script course 2022")
+console.log("Hi I am Vibhas. I have 2 years of CS courses under my belt, but I can't code to save my life. How're you doing?")
