@@ -1,6 +1,6 @@
 function myFunc(min, max){
     
-    const output = Math.floor(math.random *(max - min)) + min;
+    const output = Math.floor(Math.random *(max - min)) + min;
     return output;
 }
 // const rand = Math.random()
