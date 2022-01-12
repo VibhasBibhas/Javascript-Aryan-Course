@@ -1,9 +1,8 @@
-function myFunc(johnnyboy){
-    console.log("johnnyboy is bad" + johnnyboy)
+function myFunc(min, max){
+    
     const output = Math.floor(rand *(max - min)) + min;
     return output;
 }
-myFunc("johnny is bad")
 // const rand = Math.random()
 // const min = 0
 // const max = 10000000000000
