@@ -1,10 +1,5 @@
-
-console.log(Math.abs(input))
-console.log(Math.abs(prompt("neg number:")))
-const current = new Date();
-console.log(current.getHours());
-console.log(Date.now());
-const day1 = new Date(2020, 0)
-const day2 = new Date(2021, 0)
-
-console.log(day2 - day1)
+const rand = Math.random()
+const min = 0
+const max = 1000000000000000000000000000000000000000000000000000000000000000
+const ourRandomNum = Math.floor(rand + (max - min)) + min
+console.log(ourRandomNum)
