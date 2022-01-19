@@ -9,16 +9,16 @@ const number3 = prompt ('What is your second number?')
 
 switch(number2) {
     case "+":
-        console.log("addition");
+        console.log(number1+number3);
         break;
     case "-":
-        console.log("subtraction");
+        console.log(number1+number3);
         break;
     case "*":
-        console.log("multiplication")
+        console.log(number1+number3)
         break;
     case "/":
-        console.log("division");
+        console.log(number1+number3);
         break;     
 }
 
