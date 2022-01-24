@@ -2,7 +2,7 @@ const https = require('https');
 
 
 
-https.get("https://api.kanye.rest/", {}, (respnse) =>{
+https.get("https://api.kanye.rest/", {}, (response) =>{
     let data = '';
     response.on('data', (chunk) => {
         data += chunk;
