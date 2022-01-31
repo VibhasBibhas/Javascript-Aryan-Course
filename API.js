@@ -1,4 +1,5 @@
-const axios = require('axios').default;
+
+import {default as axios} from 'axios';
 
 async function getPerson(id){
     let getPerson = await axios.get('https://swapi.dev/api/people/' + id);
@@ -11,23 +12,9 @@ async function getPerson(id){
     console.log(data);
 }
 
-async function main(){
-    console.log(await getPerson(3))
+async function main(){;
+    console.log(await getPerson(13));
 }
 
-main()
+main();
 
-
-
-// https.get("https://swapi.dev/api/films/6/", {}, (response) =>{
-//     let data = '';
-//     response.on('data', (chunk) => {
-//         data += chunk;
-//     });
-//     response.on('end', (_) => {
-//         console.log(JSON.parse(data));
-        
-
-//     });
-
-// });
