@@ -1,5 +1,7 @@
 
 import {default as axios} from 'axios';
+import promptPKG from 'prompt-sync';
+const prompt = promptPKG();
 
 async function getPerson(id){
     let getPerson = await axios.get(`https://swapi.dev/api/people/${id}`);
@@ -12,8 +14,9 @@ async function getPerson(id){
     console.log(data);
 }
 
-async function main(){;
-    console.log(await getPerson(14));
+async function main(){
+    let personID = prompt('Type any number from 1-83:');
+    console.log(await getPerson(personID));
 }
 
 main();
