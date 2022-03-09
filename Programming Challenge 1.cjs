@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 function getData() {
-    return (fs.readFileSync('/Users/VibhasSimha/Downloads/PC1input.txt', 'UTF8'));
+    return (fs.readFileSync('PC1input.txt', 'UTF8'));
 }
 let jumps = 0;
 let jumpSize = null;
